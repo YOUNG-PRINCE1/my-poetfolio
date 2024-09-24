@@ -63,3 +63,8 @@ footer {
 .typed-cursor{
     display: none;
 }
+
+.tagline{
+    background-color: transparent;
+    height: 30px;
+}

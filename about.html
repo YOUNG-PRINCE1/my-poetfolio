@@ -6,6 +6,7 @@
     <title>Full-Stack Web Developer</title>
     <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="./lightbox.min.css">
 </head>
 <body>
 
@@ -14,10 +15,18 @@
         </nav>
 
     <div class="container">
-        <header>
-            <h1>YOUNG_PRINCE</h1>
-            <h2>Full-Stack Web Developer</h2>
-        </header>
+
+        <div class="grid">
+            <header>
+                <h1>YOUNG_PRINCE</h1>
+                <h2>Full-Stack Web Developer</h2>
+            </header>
+            <div class="pic">
+                <a href="./young.jpg" data-lightbox="img-1">
+                    <img src="./young.jpg" alt="">
+                </a>
+            </div>
+        </div>
         <main>
             <section class="about">
                 <h3>About Me</h3>
@@ -60,10 +69,13 @@
                     <li>Phone: [08067760502]</li>
                     <li>LinkedIn: <a href="[your LinkedIn profile]"><i class="fa-brands fa-linkedin"></i></a></li>
                     <li>GitHub: <a href="[your GitHub profile]"><i class="fa-brands fa-github"></i></a></li>
+                    
                 </ul>
             </section>
         </main>
     </div>
 
+    <script src="./jquery.min.js"></script>
+    <script src="./lightbox.min.js"></script>
 </body>
 </html>
