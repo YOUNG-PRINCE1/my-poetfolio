@@ -25,3 +25,12 @@ nav{
     font-size: xx-large;
     justify-content: flex-end;
 }
+
+a{
+    font-size: xx-large;
+}
+
+.btn{
+    margin-top: 1rem;
+    
+}
